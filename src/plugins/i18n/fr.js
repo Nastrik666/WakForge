@@ -36,7 +36,7 @@ export const fr = {
     invalidBuildCode: 'Build Code invalide.',
     savedCharactersTitle: 'Personnages Sauvegardés',
     createNewCharacterButton: 'Créer un nouveau Personnage',
-    createNewGroupButton: 'Créer nouveau groupe',
+    createNewGroupButton: 'Créer un nouveau groupe',
     newGroup: 'Nouveau groupe',
   },
   dataPage: {
@@ -222,14 +222,14 @@ export const fr = {
       toggleWhite: 'Rendre Blanche',
       removeAllRunes: 'Enlever toutes les runes/subl.',
       sortByMatching: 'Trier pas correspondant', 
-      sortByMatchingNote: 'Si un équipement est sélectionné , cela triera les sublimations en fonction de la couleurs et l'ordre des chasses mise sur cet équipement ', // NEEDS TRANSLATION
+      sortByMatchingNote: "Si un Équipement est sélectionné , cela triera les sublimations en fonction de la couleurs et de l'ordre des runes mise sur cet Équipement ", 
       searchSublimations: 'Recherche Sublimations...', 
       searchEpicAndRelicSubs: 'Recherche Sublimations Épique/Relique...', 
       addsStateLevelsShort: '+{num_0} niveau de', 
-      stateStackingWarning: 'Cet état atteint seulement un maximum de {num_0} Niveau', 
+      stateStackingWarning: 'Cet État possède un maximum de {num_0} niveau seulement', 
       relicSub: 'Subli Relique', 
       epicSub: 'Subli Épique', 
-      itemMustBeEquipped: 'Un item doit etre equiper', 
+      itemMustBeEquipped: 'Un Item doit être équipé', 
     },
 
     spellsAndPassivesContent: {
@@ -381,10 +381,10 @@ export const fr = {
     willReplaceItems: 'Êtes-vous sûr ? Ceci remplacera tous les items équipés qui sont dans les slots en conflit.',
   },
   tooltips: {
-    randomMasteryValue: '+{num_0} Mastery of {num_1} random elements', // NEEDS TRANSLATION
-    randomResistanceValue: '+{num_0} Resistance of {num_1} random elements', // NEEDS TRANSLATION
-    addsStateLevels: 'Rajoute +{num_0} Niveau de', 
-    stateAtLevel: 'State at level {num_0} (Max {num_1})', // NEEDS TRANSLATION, context = "Abandon State at level 1 (Max 6)"
-    missingInfoAboutState: 'We are missing information about this state. If you have any, please let us know in the Discord server.', // NEEDS TRANSLATION
+    randomMasteryValue: '+{num_0} Maitrise de {num_1} élements aléatoire', 
+    randomResistanceValue: '+{num_0} Resistance de {num_1} élements aléatoire', 
+    addsStateLevels: 'Rajoute +{num_0} niveau de', 
+    stateAtLevel: "L'État {State} au niveau {num_0} (Max {num_1})", 
+    missingInfoAboutState: "Nous manquons d'informations a propos de cet État. Si vous en avez n'hésitez pas a nous contacter sur le serveur Discord.", 
   },
 };
